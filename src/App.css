@@ -1,0 +1,35 @@
+.box{
+  text-align: center;
+  width: 350px;
+  color: darkblue;
+  background-color:skyblue;
+  padding: 30px;
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 10px;
+}
+.btn{
+  background-color: blue;
+  color: beige;
+  padding: 10px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 15px;
+  width: 70%;
+}
+.btn:hover{
+  color: black;
+  background-color: royalblue;
+  transform: scale(0.9);
+}
+.heading{
+  color: black;
+  margin-bottom: 30px;
+}
+@media (max-width:600px){
+.box{
+  margin-top: 100px;
+  width: 300px;
+  font-size: 14px;
+}  
+}
